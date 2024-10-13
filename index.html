@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="img/Frame 4 1.svg" type="image/svg+xml">
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Zubyte.com</title>
+</head>
+
+<body>
+
+<!-- navbar -->
+  <nav class="bg-[#ffffff] border-gray-200 dark:bg-[#2F3E46] sticky top-0 left-0 w-full z-50 shadow-lg ">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="img/Frame 4 1.svg" class="h-8" alt="Flowbite Logo" />
+        <img src="img/Frame 5.svg" class="h-8 max-md:hidden" alt="Flowbite Logo" />
+
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black rounded-lg md:hidden hover:bg-[#ffffff] focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto min-[840px]:w-[40%] " id="navbar-default">
+        <ul
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 border  rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 min-[840px]:w-[100%] justify-around">
+          <li>
+            <a href="index.html"
+              class="block py-2 px-3 font-bold text-[#000814] rounded hover:bg-[#44d2fd] md:hover:bg-transparent md:border-0 md:hover:text-[#0d9488] md:p-0 " aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="about.html"
+              class="block py-2 px-3 font-bold text-[#000814] rounded hover:bg-[#44d2fd] md:hover:bg-transparent md:border-0 md:hover:text-[#0d9488] md:p-0 ">About</a>
+          </li>
+          <li>
+            <a href="Services.html"
+              class="block py-2 px-3 font-bold text-[#000814] rounded hover:bg-[#44d2fd] md:hover:bg-transparent md:border-0 md:hover:text-[#0d9488] md:p-0 ">Services</a>
+          </li>
+
+          <li>
+            <a href="Contact Us.html"
+              class="block py-2 px-3 font-bold text-[#000814] rounded hover:bg-[#44d2fd] md:hover:bg-transparent md:border-0 md:hover:text-[#0d9488] md:p-0 ">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Poster section -->
+
+  <section class="relative bg-cover bg-center h-96 "
+    style="background-image: url('img/diverse-group-software-developers-coding-multiple-screens-with-tech-gadgets-scattered_1271244-277511.jpg');">
+    <!-- Overlay for text visibility -->
+    <div class="absolute inset-0 bg-black opacity-70"></div>
+
+    <!-- Poster Text -->
+    <div class="relative z-10 flex flex-col justify-center items-center h-full text-center text-white p-8">
+      <h1 class="text-5xl font-bold mb-4">Bring Your Ideas to Life</h1>
+      <p class="text-lg mb-6">We design, develop, and deliver digital solutions that drive your business forward.</p>
+      <a href="#services" class="bg-teal-600 px-6 py-3 rounded-md shadow-md hover:bg-teal-700">
+        Explore Our Services
+      </a>
+    </div>
+  </section>
+
+  <!-- hero section -->
+
+  <div
+    class="flex flex-col-reverse md:flex-row items-center justify-between h-[65vh] max-md:my-8  md:h-[65vh] lg:h-[70vh]  p-4  ">
+    <!-- Left Image Section -->
+    <div class="box w-full md:w-1/2 text-center md:text-left overflow-hidden" data-animation="left">
+      <img src="img/know-if-you-would-be-a-good-freelancer-1-1024x512.jpg" alt="Hero Image"
+        class="w-full max-md:h-64 lg:min-h-80 object-cover md:max-w-md mx-auto  hover:scale-105 duration-300 ease-in-out">
+    </div>
+
+    <!-- Right Content Section -->
+    <div class="w-full md:w-1/2 text-center md:text-left p-4">
+      <h1 class="text-4xl font-bold mb-4 max-[500px]:text-2xl">Welcome to Our Website</h1>
+      <p class="text-lg mb-4">We create responsive designs that ensure your website looks great on all devices,
+        providing an optimal user experience.</p>
+      <button class="bg-teal-600 text-white py-2 px-4 rounded hover:bg-teal-700 transition duration-300">
+        Learn More
+      </button>
+    </div>
+  </div>
+
+  <!-- 9 icon section -->
+  <div class="bg-white p-6 pb-20">
+    <div class="max-w-3xl mx-auto py-6">
+      <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">Skills and Services Guide</h1>
+
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 container mx-auto">
+      <!-- Box 1 -->
+      <div
+        class="bg-[#f9fafb] p-4 rounded-lg shadow-md flex flex-col space-y-2 py-8 group hover:bg-[#31c48d] ease-in-out duration-300 transition-all">
+        <div class="flex justify-center mb-2 ">
+          <svg class="h-10  text-cyan-600 hover:scale-125 ease-in-out duration-200 group-hover:text-black" fill="none"
+            viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+
+        </div>
+        <h3 class="text-lg font-semibold text-center group-hover:text-white ease-in-out duration-200">Desktop Designing
+        </h3>
+        <p class="text-gray-600 text-center lg:px-8 max-w-96 mx-auto group-hover:text-white ease-in-out duration-200">
+          "Desktop designing focuses on creating optimized,
+          user-friendly interfaces for large screens, ensuring readability, functionality, and responsiveness."</p>
+      </div>
+
+      <!-- Box 2 -->
+      <div
+        class="bg-[#f9fafb] p-4 rounded-lg shadow-md flex flex-col space-y-2 py-8 group hover:bg-[#31c48d] ease-in-out duration-300 transition-all">
+        <div class="flex justify-center mb-2">
+          <svg class="h-10 text-cyan-600 hover:scale-125 ease-in-out duration-200 group-hover:text-black"
+            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" />
+            <g transform="rotate(27 12 12)">
+              <rect x="7" y="4" width="10" height="16" rx="1" />
+              <line x1="11" y1="5" x2="13" y2="5" />
+              <line x1="12" y1="17" x2="12" y2="17.01" />
+            </g>
+            <path d="M6 4l-2 1v2.5l-2 1v2.5" />
+            <path d="M22 13v2.5l-2 1v2.5l-2 1" />
+          </svg>
+        </div>
+        <h3 class="text-lg font-semibold text-center group-hover:text-white ease-in-out duration-200">Mobiles Designing
+        </h3>
+        <p class="text-gray-600 text-center lg:px-8 max-w-96 mx-auto group-hover:text-white ease-in-out duration-200">
+          "Mobile designing focuses on creating intuitive,
+          responsive interfaces for small screens, optimizing usability, touch interactions, and performance."</p>
+      </div>
+
+      <!-- Box 3 -->
+      <div
+        class="bg-[#f9fafb] p-4 rounded-lg shadow-md flex flex-col space-y-2 py-8 group hover:bg-[#31c48d] ease-in-out duration-300 transition-all">
+        <div class="flex justify-center mb-2">
+          <svg class="h-10 text-cyan-600 hover:scale-125 ease-in-out duration-200 group-hover:text-black"
+            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" />
+            <line x1="4" y1="20" x2="7" y2="20" />
+            <line x1="14" y1="20" x2="21" y2="20" />
+            <line x1="6.9" y1="15" x2="13.8" y2="15" />
+            <line x1="10.2" y1="6.3" x2="16" y2="20" />
+            <polyline points="5 20 11 4 13 4 20 20" />
+          </svg>
+        </div>
+        <h3 class="text-lg font-semibold text-center group-hover:text-white ease-in-out duration-200">Design & Arts</h3>
+        <p class="text-gray-600 text-center lg:px-8 max-w-96 mx-auto group-hover:text-white ease-in-out duration-200">
+          "Design & Arts blend creativity and functionality,
+          focusing on visual aesthetics, user experience, and innovative solutions in various mediums."</p>
+      </div>
+
+      <!-- Box 4 -->
+      <div
+        class="bg-[#f9fafb] p-4 rounded-lg shadow-md flex flex-col space-y-2 py-8 group hover:bg-[#31c48d] ease-in-out duration-300 transition-all">
+        <div class="flex justify-center mb-2">
+          <svg class="h-10 text-cyan-600 hover:scale-125 ease-in-out duration-200 group-hover:text-black"
+            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+          </svg>
+        </div>
+        <h3 class="text-lg font-semibold text-center group-hover:text-white ease-in-out duration-200">Architecture</h3>
+        <p class="text-gray-600 text-center lg:px-8 max-w-96 mx-auto group-hover:text-white ease-in-out duration-200">
+          "Architecture involves designing and constructing
+          functional, aesthetic spaces, balancing creativity with structural integrity, sustainability, and user needs."
+        </p>
+      </div>
+
+      <!-- Box 5 -->
+      <div
+        class="bg-[#f9fafb] p-4 rounded-lg shadow-md flex flex-col space-y-2 py-8 group hover:bg-[#31c48d] ease-in-out duration-300 transition-all">
+        <div class="flex justify-center mb-2">
+          <svg class="h-10 text-cyan-600 hover:scale-125 ease-in-out duration-200 group-hover:text-black"
+            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" />
+            <circle cx="12" cy="12" r="9" />
+            <line x1="3.6" y1="9" x2="20.4" y2="9" />
+            <line x1="3.6" y1="15" x2="20.4" y2="15" />
+            <path d="M11.5 3a17 17 0 0 0 0 18" />
+            <path d="M12.5 3a17 17 0 0 1 0 18" />
+          </svg>
+        </div>
+        <h3 class="text-lg font-semibold text-center group-hover:text-white ease-in-out duration-200">Hosting</h3>
+        <p class="text-gray-600 text-center lg:px-8 max-w-96 mx-auto group-hover:text-white ease-in-out duration-200">
+          "Hosting provides online space and resources for
+          websites, ensuring accessibility, performance, and security on servers for user access."</p>
+      </div>
+
+      <!-- Box 6 -->
+      <div
+        class="bg-[#f9fafb] p-4 rounded-lg shadow-md flex flex-col space-y-2 py-8 group hover:bg-[#31c48d] ease-in-out duration-300 transition-all">
+        <div class="flex justify-center mb-2">
+          <svg class="h-10 text-cyan-600 hover:scale-125 ease-in-out duration-200 group-hover:text-black"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+          </svg>
+        </div>
+        <h3 class="text-lg font-semibold text-center group-hover:text-white ease-in-out duration-200">Content Writing
+        </h3>
+        <p class="text-gray-600 text-center lg:px-8 max-w-96 mx-auto group-hover:text-white ease-in-out duration-200">
+          "Content writing involves creating informative,
+          engaging, and valuable text for websites, blogs, or marketing, tailored to specific audiences."</p>
+      </div>
+
+      <!-- Box 7 -->
+      <div
+        class="bg-[#f9fafb] p-4 rounded-lg shadow-md flex flex-col space-y-2 py-8 group hover:bg-[#31c48d] ease-in-out duration-300 transition-all">
+        <div class="flex justify-center mb-2">
+          <svg class="h-10 text-cyan-600 hover:scale-125 ease-in-out duration-200 group-hover:text-black"
+            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" />
+            <rect x="3" y="5" width="18" height="14" rx="2" />
+            <path d="M7 15v-4a2 2 0 0 1 4 0v4" />
+            <line x1="7" y1="13" x2="11" y2="13" />
+            <path d="M17 9v6h-1.5a1.5 1.5 0 1 1 1.5 -1.5" />
+          </svg>
+        </div>
+        <h3 class="text-lg font-semibold text-center group-hover:text-white ease-in-out duration-200">Ads</h3>
+        <p class="text-gray-600 text-center lg:px-8 max-w-96 mx-auto group-hover:text-white ease-in-out duration-200">
+          "Ads promote products or services through targeted
+          messaging, aiming to capture attention, drive engagement, and influence consumer behavior."</p>
+      </div>
+
+      <!-- Box 8 -->
+      <div
+        class="bg-[#f9fafb] p-4 rounded-lg shadow-md flex flex-col space-y-2 py-8 group hover:bg-[#31c48d] ease-in-out duration-300 transition-all">
+        <div class="flex justify-center mb-2">
+          <svg class="h-10 text-cyan-600 hover:scale-125 ease-in-out duration-200 group-hover:text-black"
+            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" />
+            <path d="M6 6v6a3 3 0 0 0 3 3h10l-5 -5m0 10l5 -5" />
+          </svg>
+        </div>
+        <h3 class="text-lg font-semibold text-center group-hover:text-white ease-in-out duration-200">Guidance</h3>
+        <p class="text-gray-600 text-center lg:px-8 max-w-96 mx-auto group-hover:text-white ease-in-out duration-200">
+          "Guidance offers advice and direction, helping
+          individuals or groups make informed decisions, solve problems, and achieve their goals."</p>
+      </div>
+
+      <!-- Box 9 -->
+      <div
+        class="bg-[#f9fafb] p-4 rounded-lg shadow-md flex flex-col space-y-2 py-8 group hover:bg-[#31c48d] ease-in-out duration-300 transition-all">
+        <div class="flex justify-center mb-2">
+          <svg class="h-10 text-cyan-600 hover:scale-125 ease-in-out duration-200 group-hover:text-black"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
+            <line x1="12" y1="9" x2="12" y2="13" />
+            <line x1="12" y1="17" x2="12.01" y2="17" />
+          </svg>
+        </div>
+        <h3 class="text-lg font-semibold text-center group-hover:text-white ease-in-out duration-200">Error Solving</h3>
+        <p class="text-gray-600 text-center lg:px-8 max-w-96 mx-auto group-hover:text-white ease-in-out duration-200">
+          "Error solving involves identifying, diagnosing,
+          and resolving issues in systems or processes, ensuring optimal performance and functionality."</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- hero section -->
+
+  <div class=" mx-auto  bg-gradient-to-br   bg-white px-8">
+    <h2 class="text-3xl font-bold mb-4 pt-5 text-center">Our Mission and Vision</h2>
+    <section class="bg-white py-12">
+      <div class=" mx-auto flex flex-col-reverse  md:flex-row items-center justify-between px-4 md:px-0 gap-x-20">
+        <!-- Left Section: Text Content -->
+        <div  class=" box md:w-1/2 mb-8 md:mb-0 animation-slide-in-left " data-animation="left">
+          <h2 class="text-2xl font-bold text-gray-800 mb-4">Empowering Your Projects with Expert Freelancers</h2>
+          <p class="text-lg text-gray-600 mb-6">
+            At <span class="text-blue-500 font-semibold">Your Trusted Freelance Marketplace</span>, we are committed to
+            empowering your projects by connecting you with expert freelancers across a wide range of skills. Whether
+            it's web development, graphic design, or content creation, we ensure you have the right talent to bring your
+            vision to life.
+          </p>
+          <p class="text-lg text-gray-600">
+            <strong>Our Mission:</strong> To provide a seamless platform where businesses and skilled freelancers
+            collaborate to achieve success.
+          </p>
+          <p class="text-lg text-gray-600">
+            <strong>Our Values:</strong> Quality, Reliability, Flexibility, and Transparency.
+          </p>
+          <a href="#"
+            class="mt-6 inline-block px-6 py-3 bg-teal-600 text-white font-semibold rounded-lg shadow-md hover:bg-teal-700 transition duration-300 ">
+            Learn More
+          </a>
+
+        </div>
+
+        <!-- Right Section: Image -->
+        <div id="boxRight" class=" box md:w-1/2 animation-slide-in-right rounded-2xl overflow-hidden max-md:pb-8" data-animation="right">
+          <img src="img/scrool bar (3).jpg" alt="Farm-to-Table"
+            class="rounded-2xl shadow-md md:min-h-96  max-h-96 w-full object-cover hover:scale-105 ease-in-out duration-300">
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class=" mx-auto  bg-gradient-to-br   bg-white pt-14">
+
+    <section class="bg-white py-12 px-4">
+      <div class=" mx-auto flex flex-col md:flex-row items-center justify-between px-4 md:px-0 md:space-x-12 h-[100%]">
+
+        <!-- left Section: Image -->
+        <div  class=" box md:w-1/2 w-full overflow-hidden rounded-2xl " data-animation="left">
+          <img src="img/scrool bar (2).jpg" alt="Farm-to-Table"
+            class="rounded-2xl shadow-md md:min-h-96  max-h-96 w-full object-cover hover:scale-105 ease-in-out duration-300">
+        </div>
+
+        <!-- right Section: Text Content -->
+        <div   class="box bg-white py-12 md:w-1/2" data-animation="right">
+          <div class="max-w-5xl mx-auto text-cente md:text-xl">
+            <h1 class="text-3xl font-bold text-gray-800">Your Trusted Freelance Marketplace</h1>
+            <p class="mt-4 text-gray-600">Finding the right talent for your projects has never been easier.
+              <strong>Your Trusted Freelance Marketplace</strong> connects businesses with verified freelancers across
+              various fields.
+            </p>
+
+            <h2 class="mt-8 text-2xl font-semibold text-gray-800 ">Key Features:</h2>
+            <ul class="mt-4  max-w-lg  space-y-2 grid grid-cols-3 max-lg:grid-cols-2">
+              <li class="flex items-center ">
+                <svg class="w-6 h-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none"
+                  viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Vetted Professionals</span>
+              </li>
+              <li class="flex items-center">
+                <svg class="w-6 h-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none"
+                  viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Diverse Skills</span>
+              </li>
+              <li class="flex items-center">
+                <svg class="w-6 h-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none"
+                  viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Flexible Hiring</span>
+              </li>
+              <li class="flex items-center">
+                <svg class="w-6 h-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none"
+                  viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Secure Payments</span>
+              </li>
+              <li class="flex items-center">
+                <svg class="w-6 h-6 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none"
+                  viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>User-Friendly</span>
+              </li>
+            </ul>
+
+            <a href="#"
+              class="mt-6 inline-block px-6 py-3 bg-teal-600 text-white font-semibold rounded-lg shadow-md hover:bg-teal-700 transition duration-300 ">
+              Join Us!
+            </a>
+
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+  </div>
+
+  <!-- content section -->
+   
+  <section id="services" class="bg-white py-16 px-8">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-10 text-gray-800">Our Exceptional Services</h2>
+      <p class="mb-12 text-lg text-gray-600 max-w-3xl mx-auto">We offer a wide range of freelancing services to
+        cater to all your project needs. From creating beautiful websites to marketing your products effectively,
+        our expertise ensures a seamless journey from ideation to completion.</p>
+      <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-10 text-left">
+
+        <!-- Custom Web Development -->
+        <div class="p-8 bg-gray-50 shadow-md rounded-md hover:shadow-lg transition-shadow duration-300">
+          <div class="flex items-center mb-4">
+            <i class="fas fa-laptop-code text-4xl text-blue-500 mr-4"></i>
+            <h3 class="text-2xl font-semibold text-gray-800">Custom Web Development</h3>
+          </div>
+          <p class="text-gray-600 mb-4">Our team specializes in building custom websites that are not only
+            aesthetically pleasing but also highly functional. Utilizing the latest technologies like <span
+              class="text-blue-500 font-medium">HTML, CSS, JavaScript</span>, and frameworks such as <span
+              class="text-blue-500 font-medium">React and Tailwind CSS</span>, we deliver tailored solutions to meet
+            your specific needs.</p>
+          <ul class="list-disc list-inside text-gray-600 ml-4">
+            <li>Responsive and adaptive design</li>
+            <li>SEO-friendly development</li>
+            <li>Performance optimization for faster loading times</li>
+          </ul>
+        </div>
+
+        <!-- UI/UX Design -->
+        <div class="p-8 bg-gray-50 shadow-md rounded-md hover:shadow-lg transition-shadow duration-300">
+          <div class="flex items-center mb-4">
+            <i class="fas fa-palette text-4xl text-pink-500 mr-4"></i>
+            <h3 class="text-2xl font-semibold text-gray-800">UI/UX Design</h3>
+          </div>
+          <p class="text-gray-600 mb-4">Our <span class="text-pink-500 font-medium">user-centric design</span>
+            approach ensures that every element of your website or app is optimized for the best user experience. We
+            combine creativity with functionality to provide visually appealing interfaces that engage and convert
+            users.</p>
+          <ul class="list-disc list-inside text-gray-600 ml-4">
+            <li>Wireframing and prototyping</li>
+            <li>Intuitive and accessible design principles</li>
+            <li>Focus on enhancing user engagement</li>
+          </ul>
+        </div>
+
+        <!-- Digital Marketing and SEO -->
+        <div class="p-8 bg-gray-50 shadow-md rounded-md hover:shadow-lg transition-shadow duration-300">
+          <div class="flex items-center mb-4">
+            <i class="fas fa-chart-line text-4xl text-green-500 mr-4"></i>
+            <h3 class="text-2xl font-semibold text-gray-800">Digital Marketing & SEO</h3>
+          </div>
+          <p class="text-gray-600 mb-4">Our digital marketing experts help your business grow by improving online
+            visibility, increasing brand awareness, and driving more targeted traffic to your website. With our
+            proven <span class="text-green-500 font-medium">SEO and PPC strategies</span>, we boost your site's
+            performance.</p>
+          <ul class="list-disc list-inside text-gray-600 ml-4">
+            <li>Keyword research and content optimization</li>
+            <li>Technical SEO and on-page improvements</li>
+            <li>Pay-Per-Click (PPC) advertising management</li>
+          </ul>
+        </div>
+
+        <!-- Project Consulting -->
+        <div class="p-8 bg-gray-50 shadow-md rounded-md hover:shadow-lg transition-shadow duration-300">
+          <div class="flex items-center mb-4">
+            <i class="fas fa-handshake text-4xl text-yellow-500 mr-4"></i>
+            <h3 class="text-2xl font-semibold text-gray-800">Project Consulting</h3>
+          </div>
+          <p class="text-gray-600 mb-4">Our consulting services are designed to give you a competitive edge by
+            providing professional advice from start to finish. Whether it’s <span
+              class="text-yellow-500 font-medium">conceptualization, strategy planning, or final
+              implementation</span>, we guide you at every step for optimal results.</p>
+          <ul class="list-disc list-inside text-gray-600 ml-4">
+            <li>Requirement analysis and scoping</li>
+            <li>Roadmap creation and milestone management</li>
+            <li>Resource planning and risk management</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  
+
+    <footer class="min-[500px]:px-20 px-4 bg-slate-100 pt-16 lg:flex justify-around pb-10  ">
+      <div class="">
+        <div class="my-16">
+          <a href="https://www.notion.so/" class="flex items-center min-[500px]:space-x-3 rtl:space-x-reverse">
+            <img src="img/Frame 4 1.svg" class="h-12" alt="Flowbite Logo" />
+            <span class="self-center text-4xl font-bold min-[500px]:whitespace-nowrap dark:text-white">ZUBYTE</span>
+          </a>
+        </div>
+
+        <div class="brand flex flex-row space-x-4 mb-4">
+          <img class="h-8 hover:p-1 rounded-xl transition-all hover:bg-slate-300" src="img/icons8-instagram.svg" alt="">
+          <img class="h-8 hover:p-1 rounded-xl transition-all hover:bg-slate-300" src="img/icons8-linkedin-circled.svg"
+            alt="">
+          <img class="h-8 hover:p-1 rounded-xl transition-all hover:bg-slate-300" src="img/icons8-twitter.svg" alt="">
+          <img class="h-8 hover:p-1 rounded-xl transition-all hover:bg-slate-300" src="img/icons8-facebook.svg" alt="">
+          <img class="h-8 hover:p-1 rounded-xl transition-all hover:bg-slate-300" src="img/icons8-youtube.svg" alt="">
+        </div>
+        <button class="px-6 py-2 border border-gray-950 font-bold rounded-lg mt-16 hover:bg-slate-400">English</button>
+        <p class="text-[#7a6666]">Do not sale or sharemy info cookie settings</p>
+        <p>© 2024 ZUBYTE SOLUTION, Inc.</p>
+      </div>
+      <div class="text-slate-700 grid grid-cols-2 md:grid-cols-4 gap-8 my-16  content-start ">
+        <div class="hover:[&>p]:underline leading-8">
+          <p class="font-medium">Company</p>
+          <p>About us</p>
+          <p>Careers</p>
+          <p>Security</p>
+          <p>Status</p>
+          <p>Terms & privacy</p>
+        </div>
+        <div class="hover:[&>p]:underline leading-8">
+          <p class="font-medium">Download</p>
+          <p>iOS & Android</p>
+          <p>Mac & Windows</p>
+          <p>Calendar</p>
+          <p>Web Clipper</p>
+        </div>
+        <div class="hover:[&>p]:underline leading-8">
+          <p class="font-medium">Resources</p>
+          <p>Help center</p>
+          <p>Pricing</p>
+          <p>Blog</p>
+          <p>Community</p>
+          <p>Integrations</p>
+          <p>Templates</p>
+          <p>Affiliates</p>
+        </div>
+        <div class="hover:[&>p]:underline leading-8">
+          <p class="font-medium">Notion for</p>
+          <p>Enterprise</p>
+          <p>Small business</p>
+          <p class="pb-20">Personal</p>
+          <p class="font-bold text-blue-500">Explore more→</p>
+        </div>
+
+      </div>
+    </footer>
+  
+  
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
